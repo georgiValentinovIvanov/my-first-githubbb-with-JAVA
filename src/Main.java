@@ -1,13 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        printTriangleArea();
+        printPineTree();
     }
-    public static void printTriangleArea() {
-        int a = 20;
-        int b = 5;
-
-        int area = (a * b) / 2;
-
-        System.out.println("The area of the triangle is: " + area);
+    public static void printPineTree() {
+        System.out.println("  *");
+        System.out.println(" ***");
+        System.out.println("*****");
     }
 }
