@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
+        printName();
+    }
+    public static void printName() {
+        String firstName = "Dimitar";
+        String middleName = "Nikolaev";
+        String lastName = "Tarkalanov";
 
-        System.out.printf("Hello and welcome my first GIT!");
-        System.out.printf("Hello and welcome my first github!");
+        String fullName = firstName + " " + middleName + " " + lastName;
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        System.out.println(fullName);
     }
 }
