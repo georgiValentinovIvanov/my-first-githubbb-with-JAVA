@@ -1,14 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        printName();
+        printTriangleArea();
     }
-    public static void printName() {
-        String firstName = "Dimitar";
-        String middleName = "Nikolaev";
-        String lastName = "Tarkalanov";
+    public static void printTriangleArea() {
+        int a = 20;
+        int b = 5;
 
-        String fullName = firstName + " " + middleName + " " + lastName;
+        int area = (a * b) / 2;
 
-        System.out.println(fullName);
+        System.out.println("The area of the triangle is: " + area);
     }
 }
